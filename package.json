@@ -1,0 +1,31 @@
+{
+  "name": "marcoapr.me",
+  "version": "1.0.0",
+  "description": "Web Development Laboratory - Personal portfolio - 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoapr/namecheap.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Web",
+    "Development"
+  ],
+  "author": "Marco Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoapr/namecheap/issues"
+  },
+  "homepage": "https://github.com/marcoapr/namecheap#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

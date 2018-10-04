@@ -1,0 +1,72 @@
+body {
+    background-color: #FEFFFF;
+}
+header {
+    background-color: #17252A;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar {
+    display: block;
+
+    &-main {
+        list-style: none;
+        margin: 0;
+
+        &-item {
+            float: right;
+            margin-bottom: 0;
+            position: relative;
+
+            a {
+                color: #FEFFFF;
+                display: block;
+                padding: 10px 0;
+                margin-left: 50px;
+                text-decoration: none;
+            }
+
+            &-logo {
+                float: left;
+            }
+        }
+    }
+}
+
+.hero {
+    background-color: #3AAFA9;
+    height: 500px;
+    position: relative;
+
+    &::after { 
+        background: #FEFFFF;
+        clip-path: polygon(0 100%, 0 0, 100% 100%);
+        height: 50px;
+        position: absolute;
+            bottom: 0px;
+        width: 100%;
+        
+        content: "";
+    }
+}
+
+.bio {
+    background-color: #FEFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    text-align: justify;
+    padding: 40px 0;
+}
+
+.skills {
+    border-bottom: 1px solid #CCCCCC;
+    height: 350px;
+    position: relative;
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #17252A;
+    color: #FEFFFF;
+    padding: 40px;
+}
